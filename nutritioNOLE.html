@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<title>NutritioNOLE</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body {font-size: 16px;}
+img {margin-bottom: -8px;}
+.mySlides {display: none;}
+</style>
+<body class="w3-content w3-black" style="max-width:1500px;">
+
+<!-- Header with Slideshow -->
+<header class="w3-display-container w3-center">
+  <button class="w3-btn-block w3-green w3-hide-large w3-hide-medium" onclick="document.getElementById('download').style.display='block'">Download <i class="fa fa-android"></i> <i class="fa fa-apple"></i> <i class="fa fa-windows"></i></button>
+  <div class="mySlides w3-animate-opacity">
+    <img class="w3-image" src="myAppPic.png" alt="Image 1" style="min-width:500px" width="1500" height="1000">
+    <div class="w3-display-left w3-padding w3-hide-small" style="width:35%">
+      <div class="w3-black w3-opacity w3-hover-opacity-off w3-padding-large w3-round-large">
+        <h1 class="w3-xlarge">Live a healthier lifestyle with NutritioNOLE</h1>
+        <hr class="w3-opacity">
+        <p>Eat , Move, Learn, and Connect</p>
+        
+      </div>
+    </div>
+  </div>
+  <div class="mySlides w3-animate-opacity">
+    <img class="w3-image" src="gymHome.png" alt="Image 2" style="min-width:500px" width="1500" height="1000">
+    <div class="w3-display-left w3-padding w3-hide-small" style="width:35%">
+      <div class="w3-black w3-opacity w3-hover-opacity-off w3-padding-large w3-round-large">
+        <h1 class="w3-xlarge w3-text-red"><b>Move!</b></h1>
+        <hr class="w3-opacity">
+        <p>Register for classes offered on campus or workout on your own.</p>
+
+      </div>
+    </div>
+  </div>
+  <div class="mySlides w3-animate-opacity">
+    <img class="w3-image" src="eatApp.png" alt="Image 3" style="min-width:500px" width="1500" height="1000">
+    <div class="w3-display-left w3-padding w3-hide-small" style="width:35%">
+      <div class="w3-black w3-opacity w3-hover-opacity-off w3-padding-large w3-round-large">
+        <h1 class="w3-xlarge">Eat!</h1>
+        <hr class="w3-opacity">
+        <p>Find healthier menu items at your favorte restatrunts.</p>
+       
+      </div>
+    </div>
+  </div>
+  <a class="w3-btn w3-black w3-padding w3-display-right w3-margin-right w3-round w3-hide-small w3-hover-light-grey" onclick="plusDivs(1)">Take Tour <i class="fa fa-angle-right"></i></a>
+  <a class="w3-btn-block w3-black w3-padding w3-hide-large w3-hide-medium" onclick="plusDivs(1)">Take Tour <i class="fa fa-angle-right"></i></a>
+</header>
+
+<!-- The App Section -->
+<div class="w3-padding-64 w3-white">
+  <div class="w3-row-padding">
+    <div class="w3-col l8 m6">
+      <h1 class="w3-jumbo"><b>The App</b></h1>
+      <h1 class="w3-xxxlarge w3-text-green"><b>Why NutritioNOLE?</b></h1>
+      <p><span class="w3-xlarge">Healthy never been so easy! </span> There are two types of people the fit, and the fit wannabes. It turns out we found ourselves in the wannabe because as much as we like to exercise, we also like to eat. So why not make it easier and more fun?  We found there was no app or tool that could help up address issue. So our main focus is to make a tool to help students become healthier, one step at a time and all in one place.</p>
+     
+      <p> Soon available for <i class="fa fa-android w3-xlarge w3-text-green"></i> <i class="fa fa-apple w3-xlarge"></i></p>
+    </div>
+    <div class="w3-col l4 m6">
+      <img src="NutricioNOLE.png" class="w3-image w3-right w3-hide-small" width="335" height="471">
+      <div class="w3-center w3-hide-large w3-hide-medium">
+       
+        <img src="NutricioNOLE.png" class="w3-image w3-margin-top" width="335" height="471">
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div id="download" class="w3-modal w3-animate-opacity">
+  <div class="w3-modal-content w3-padding-jumbo">
+    <div class="w3-container w3-white">
+      <i onclick="document.getElementById('download').style.display='none'" class="fa fa-remove w3-xlarge w3-closebtn w3-hover-text-grey w3-margin"></i>
+      <h2 class="w3-wide">DOWNLOAD</h2>
+      <p>Download the app in AppStore, Google Play or Microsoft Store.</p>
+      <i class="fa fa-android w3-large"></i> <i class="fa fa-apple w3-large"></i> <i class="fa fa-windows w3-large"></i>
+      <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail"></p>
+      <button type="button" class="w3-btn-block w3-padding-large w3-red w3-margin-bottom" onclick="document.getElementById('download').style.display='none'">Fake Download</button>
+    </div>
+  </div>
+</div>
+
+<!-- Clarity Section 
+<div class="w3-padding-64 w3-light-grey">
+  <div class="w3-row-padding">
+    <div class="w3-col l4 m6">
+      <img class="w3-image w3-round-large w3-hide-small w3-grayscale" src="standAlone.png" alt="App" width="335" height="471">
+    </div>
+    <div class="w3-col l8 m6">
+      <h1 class="w3-jumbo"><b>Clarity</b></h1>
+      <h1 class="w3-xxxlarge w3-text-red"><b>Pixels, who?</b></h1>
+      <p><span class="w3-xlarge">A revolution in resolution.</span> Sharp and clear photos with the world's best photo engine, incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+        ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+    </div>
+  </div>
+</div>-->
+
+<!-- Features Section -->
+<div class="w3-container w3-padding-64 w3-dark-grey w3-center">
+  <h1 class="w3-jumbo"><b>Features</b></h1>
+  <p>whatch the video below to learn more.</p>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/V94FKlxX0yM" frameborder="0" allowfullscreen></iframe>
+
+
+</div>
+
+ 
+
+
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-32 w3-light-grey w3-center w3-xlarge">
+  <div class="w3-section">
+    <i class="fa fa-facebook-official w3-hover-text-indigo"></i>
+    <i class="fa fa-instagram w3-hover-text-purple"></i>
+    <i class="fa fa-snapchat w3-hover-text-yellow"></i>
+    <i class="fa fa-pinterest-p w3-hover-text-red"></i>
+    <i class="fa fa-twitter w3-hover-text-light-blue"></i>
+    <i class="fa fa-linkedin w3-hover-text-indigo"></i>
+  </div>
+ 
+</footer>
+
+<script>
+// Slideshow
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+</body>
+</html>
